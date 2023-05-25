@@ -13,24 +13,8 @@ class HomePage extends BasePage {
     return cy.get(".bm-menu-wrap");
   }
 
-  static get inventorySidebar() {
-    return cy.get("#inventory_sidebar_link");
-  }
-
-  static get aboutSidebar() {
-    return cy.get("#about_sidebar_link");
-  }
-
-  static get resetSidebar() {
-    return cy.get("#reset_sidebar_link");
-  }
-
   static get logoutButton() {
     return cy.get("#logout_sidebar_link");
-  }
-
-  static get cartButton() {
-    return cy.get("#shopping_cart_container");
   }
 
   static get cartBadge() {
@@ -59,14 +43,6 @@ class HomePage extends BasePage {
 
   static get itemName() {
     return cy.get(".inventory_details_name");
-  }
-
-  static get title() {
-    return cy.get(".title");
-  }
-
-  static get addToCartButton() {
-    return cy.get(".btn_inventory");
   }
 }
 
